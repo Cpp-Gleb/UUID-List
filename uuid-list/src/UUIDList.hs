@@ -57,7 +57,6 @@ extractBits uuidVal =
               then Nothing
               else Just (extract122 uuidVal)
 
--- Собственно извлекаем 122 бита
 extract122 :: Integer -> Integer
 extract122 u =
   let
